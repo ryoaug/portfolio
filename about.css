@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 15px 30px;
+    margin: 0 30px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #ccc;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.about,
+.skills,
+.experience-skills {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - ポートフォリオ</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="index.html" class="nav-link">Top</a>
+            <a href="about.html" class="nav-link">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <div class="accordion">
+
+                <input type="checkbox" id="project1" class="accordion-checkbox">
+                <label for="project1" class="accordion-button">
+                    <p>GUIを用いた時間割作成</p>
+                    <p>Java</p>
+                </label>
+                <div class="accordion-content">
+                    <p><img src="image/image.png"></p>
+                    <p><strong>概要:</strong> JavaのGUIプログラミングを用いて時間割を作成できるアプリケーション</p>
+                    <p><strong>使用技術:</strong> Java</p>
+                    <p><strong>機能:</strong>
+                        科目名・単位数・曜日・時限を入力し追加をすると左の表に追加され、合計単位数も出るようになっている。</p>
+                    <p>消したいときは消したいところを選択し、削除を押すと消えるようになっている。</p>
+                    <p>またファイルとして書き出したり、取り込んだりすることも可能。</p>
+                    </p>
+                </div>
+
+                <input type="checkbox" id="project2" class="accordion-checkbox">
+                <label for="project2" class="accordion-button">
+                    <p>データエンジニアリング</p>
+                    <p>Java</p>
+                </label>
+                <div class="accordion-content">
+                    <!--<img src="project2.jpg" alt="Project 2">-->
+                    <p><strong>概要:</strong> </p>
+                    <p><strong>使用技術:</strong> Java</p>
+                    <p><strong>機能:</strong>
+                    </p>
+                </div>
+
+                <input type="checkbox" id="project3" class="accordion-checkbox">
+                <label for="project3" class="accordion-button">
+                    <p>通信を使ったゲーム　フルカウント・ブラックジャック</p>
+                    <p>JavaScript, Node.js, HTML, CSS</p>
+                </label>
+                <div class="accordion-content">
+                    <img src="image/スクリーンショット 2024-09-03 162145.png">
+                    <img src="image/スクリーンショット 2024-09-03 162243.png">
+                    <img src="image/スクリーンショット 2024-09-03 162256.png">
+                    <img src="image/スクリーンショット 2024-09-03 162328.png">
+                    <img src="image/スクリーンショット 2024-09-03 162416.png">
+                    <p><strong>概要:</strong>
+                        webSocketを使用したリアルタイム通信のwebアプリケーション
+                    </p>
+                    <p><strong>使用技術:</strong> JavaScript, Node.js, HTML, CSS</p>
+                    <p><strong>ルール:</strong>
+                    各プレーヤーに「A～K」のトランプ13枚と白紙のカード2枚を配り、3枚で1組として5組作り自分のハンドとする。
+                    <p>カードの強さはブラックジャックに準じ「J,Q,K」は10として扱い、役の強さはカードの合計が21に近い方が強い。</p>
+                    <p> 一度使用したハンドは使用することは出来ない。</p>
+                    <p>フォールドすると相手に１ポイント追加され、各ラウンドの勝負に勝つと3ポイント獲得することができる(5ラウンド制)</p>
+                    </p>
+                </div>
+
+                <input type="checkbox" id="project4" class="accordion-checkbox">
+                <label for="project4" class="accordion-button">
+                    <p>データベース演習</p>
+                    <p>Java, python</p>
+                </label>
+                <div class="accordion-content">
+                    <!--<img src="project4.jpg" alt="Project 4">-->
+                    <p>Project 4の詳細情報。ここにプロジェクトの説明や技術スタックなどを記載します。</p>
+                </div>
+
+                <input type="checkbox" id="project5" class="accordion-checkbox">
+                <label for="project5" class="accordion-button">
+                    <p>資産管理アプリ</p>
+                    <p> JavaScript, Node.js, HTML, CSS, PostgreSQL</p>
+                </label>
+                <div class="accordion-content">
+                    <img src="image/スクリーンショット 2024-09-03 174646.png">
+                    <img src="image/スクリーンショット 2024-09-03 174322.png">
+                    <img src="image/スクリーンショット 2024-09-03 174330.png">
+                    <p><strong>概要:</strong> 収入・支出を視覚的に確認することが出来るwebアプリケーション</p>
+                    <p><strong>使用技術:</strong> JavaScript, Node.js, HTML, CSS, PostgreSQL</p>
+                    <p><strong>機能:</strong> 収入・支出の登録、収入・支出のグラフ表示、入力履歴の表示、ログイン機能</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
